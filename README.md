@@ -3,3 +3,5 @@
 - Open this game in a localhost via live server
 - Click on start game
 - Play the game
+
+![Game Play](image.png)
