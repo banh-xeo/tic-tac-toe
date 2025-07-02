@@ -1,0 +1,97 @@
+body {
+    border: solid 2px;
+    margin: 0px;
+    height: 100vh;
+    background-color: #555879;
+
+    /* FLEX ATTRIBUTES */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.game-title {
+    color: #F4EBD3;
+    font-size: 50px;
+}
+
+.game-container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    gap: 5px;
+}
+
+.sq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #DED3C4;
+    
+    /* FLEX CSS */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+}
+
+.square:hover {
+    transform: translateY(-1px);
+}
+
+.square:active {
+    background-color: #98A1BC;
+}
+
+.start-btn {
+    background-color: #F4EBD3;
+}
+
+.end-btn {
+    background-color: #ED3500;
+}
+
+.btn {
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  background-color: #98A1BC;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+} 
